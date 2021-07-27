@@ -20,3 +20,13 @@ sparsely 稀疏的、少的
 leverage 利用  
 commonalities 公共  
 non-trivial 意义非凡的  
+objective 目的  
+invariance 不变性  
+agnostic 不可知  
+explicit 直接的，明确的  
+formulate 构想出、构设出  
+photorealistic 逼真的  
+discriminator 鉴别器  
+generic 通用的  
+denoising 去噪  
+
