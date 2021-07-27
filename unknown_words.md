@@ -8,4 +8,10 @@ degrade 降低、降级
 plethora 大量的  
 timely 及时的  
 et al. 等人..  
-
+gating problem 门控任务/选择  
+facilitate 促进  
+manual 人工的，手工的  
+seminal work 重要工作  
+harmogeneous 同质的  
+heterogeneous 各种各样的  
+anti-spoofing 反欺骗  
