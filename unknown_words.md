@@ -15,3 +15,8 @@ seminal work 重要工作
 harmogeneous 同质的  
 heterogeneous 各种各样的  
 anti-spoofing 反欺骗  
+marginal 边缘的
+sparsely 稀疏的、少的  
+leverage 利用  
+commonalities 公共  
+non-trivial 意义非凡的  
