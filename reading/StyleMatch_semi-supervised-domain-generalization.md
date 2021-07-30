@@ -6,7 +6,7 @@ using some labeled data and multiple unlabeled data to finish task. Adding third
 ### techniques
 
 ##### SNN
-[!image](picture/SNN.png)  
+![image](picture/SNN.png)  
 ##### Softplus
 
 ##### Cosine similarities
@@ -29,7 +29,7 @@ Seen at FixMatch
 Image style is relative to domain, so introducing style augmentation can help cope with domain shift.  
 
 ### overall structure
-[!image](picture/StyleMatch.png)  
+![image](picture/StyleMatch.png)  
 ##### loss
 $loss=l_{supervised}+l_{unsupervised}$
 $l_{supervised}=$
