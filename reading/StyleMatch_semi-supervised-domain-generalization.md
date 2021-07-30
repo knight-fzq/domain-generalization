@@ -19,7 +19,7 @@ using some labeled data and multiple unlabeled data to finish task. Adding third
 ### Stochastic Classfier
    Z denote feature of an image X and C the total number of classes. The prediction of Z is Y=WZ+b. W=[W1,W2,W2...Wn] WZ computes the similarities between the image X and each class prototype $W_{C}$. In the stochastic classifier, each class prototype $W_{i}$ is modeled using a Gaussian distribution by $N(μ_{c},σ_{c}^{2})$.  
    
-$W_{c}=μ_{c}+softplus(σ_{c}·\epsilon),\epsion ∈N(0,1)$  
+$W_{c}=μ_{c}+softplus(σ_{c}·\epsilon),\epsilon ∈N(0,1)$  
 
    once all class prototypes are obtained, the similarity scores are computed based on cosine similarity(sim(·,·)). And then passed to the softmax function for generating normalized probabilities.(Softmax with \tau, that is temperature parameter fixed to 0.05)  
    When test:  
