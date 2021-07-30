@@ -31,5 +31,5 @@ $l_{s}=\frac{1}{B}\sum_{b=1}^{B}{H(p_{b},p_{m}(y|α(x_{b})))}$
 $l_{u}=\frac{1}{μB}\sum_{b=1}^{μB}{1(max(q_b)≥\tau)H(q_{b}^{'},p_{m}(y|A(u_{b})))}$
 
 ### model structure
-![image]<picture/fixmatch.png>
+![image](picture/fixmatch.png)
 
