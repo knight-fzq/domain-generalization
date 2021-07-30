@@ -22,7 +22,7 @@ $\sum_{b=1}^{µB}{||p_{m}(y|α(u_{b}))-p_{m}(y|α(u_{b}))||_{2}^2}$
 When the confidence of prediction is quite high, the prediction of week augmentation should be equal to strong augmentation.  
 ##### Definition of loss
 
-$l_{u}=\frac{1}{μB}\sum_{b=1}^{μB}{1(max(q_b)≥\tau)H(q_b^',p_m(y|A(u_b)))}$
+$l_{u}=\frac{1}{μB}\sum_{b=1}^{μB}{1(max(q_b)≥\tau)H(q_{b}^{'},p_{m}(y|A(u_{b})))}$
 
 
 ### pseudo-labeling
