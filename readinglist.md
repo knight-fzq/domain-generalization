@@ -4,7 +4,7 @@ arXiv Generalizing to Unseen Domains: A Survey on Domain Generalization:<https:/
 paper link:<https://arxiv.org/pdf/2103.03097.pdf>  
 author: Jingong Wang(Microsoft Research Asia)  
 
-Domain Generalization in Vision: A Survey:<https://arxiv.org/pdf/2103.02503.pdf>  
+arXiv Domain Generalization in Vision: A Survey:<https://arxiv.org/pdf/2103.02503.pdf>  
 paper link:<https://arxiv.org/pdf/2103.02503.pdf>  
 author: Kaiyang Zhou(Nanyang Technological University, Singapore)  
 
