@@ -15,6 +15,12 @@ RandAugment randomly selects transformations for each sample in a mini-batch. Ra
 ##### CTAAugment
 
 ### Consistency regularization
-$\sum_{b=1}^µB{||p_{m}(y|α(u_{b}))-p_{m}(y|α(u_{b}))||_{2}^2}$
+Consistency regularization utilizes unlabeled data by relying on the assumption that model should output similar predictions when fed perturbed versions of the same images.  
+$\sum_{b=1}^{µB}{||p_{m}(y|α(u_{b}))-p_{m}(y|α(u_{b}))||_{2}^2}$
+
+##### In this paper
+When the confidence of prediction is quite high, the prediction of week augmentation should be equal to strong augmentation.  
+##### Definition of loss
+$\l_{u}=\frac{1}{μB}\sum_{b=1}^{μB}{1(max(q_b)≥\tau)H(q_b^',p_m(y|A(u_b)))}$ 
 ### pseudo-labeling
 
