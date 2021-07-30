@@ -17,6 +17,4 @@ RandAugment randomly selects transformations for each sample in a mini-batch. Ra
 ### Consistency regularization
 $\sum_{b=1}^µB{||p_{m}(y|α(u_{b}))-p_{m}(y|α(u_{b}))||_{2}^2}$
 ### pseudo-labeling
-$$
-x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-$$
+
