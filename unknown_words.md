@@ -29,4 +29,6 @@ photorealistic 逼真的
 discriminator 鉴别器  
 generic 通用的  
 denoising 去噪  
+empirical 经验性的  
+crucial 关键的、至关重要的  
 
