@@ -31,4 +31,5 @@ generic 通用的
 denoising 去噪  
 empirical 经验性的  
 crucial 关键的、至关重要的  
-
+comprising 包括  
+variant 变体  
