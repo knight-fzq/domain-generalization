@@ -19,3 +19,6 @@ arXiv Semi-Supervised Domain Generalization with Stochastic StyleMatch
 paper link:<https://arxiv.org/pdf/2106.00592.pdf>  
 code link:<https://arxiv.org/abs/2106.00592https://github.com/KaiyangZhou/ssdg-benchmark>  
 author: Kaiyang Zhou(Nanyang Technological University, Singapore)  
+
+### NLP data augmentation
+<https://zhuanlan.zhihu.com/p/150600950?from_voters_page=true>  
