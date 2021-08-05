@@ -34,3 +34,9 @@ CVPR2019 AutoAugment:Learning Augmentation Strategies from Data
 paper link:<https://openaccess.thecvf.com/content_CVPR_2019/papers/Cubuk_AutoAugment_Learning_Augmentation_Strategies_From_Data_CVPR_2019_paper.pdf>  
 code link:  
 author: Ekin D. Cubuk , Barret Zoph(google search)  
+
+### other paper
+arXiv Proximal_prolicy_optimization_algorithms  
+paper link:<https://arxiv.org/pdf/1707.06347.pdf>  
+code link:
+author:John Schulman(OpenAI)  
