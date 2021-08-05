@@ -34,10 +34,10 @@ at each step, the controller predicts a decision produced by a softmax, the pred
 4. searching space:16(number of operations)*10(default range of magnitudes)*11(discrete probalibity, uniform spacing), so sub-policy:(16*10*11)^2, policy((16*10*11)^2)^5  
 ### model structure and applying example
 1. model structure  
-![image]<autoaug_structure.png>  
+![image]<picture/autoaug_structure.png>  
 2. example  
-![image]<autoaug_example.png>  
-![image]<autoaug_example2.png>  
+![image]<picture/autoaug_example.png>  
+![image]<picture/autoaug_example2.png>  
 # experiment results
 SOTA on CIFAR-10,CIFAR-100,SVHN and ImageNet(without additional data)  
 ### CIFAR-10
