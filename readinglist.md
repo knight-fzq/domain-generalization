@@ -22,3 +22,15 @@ author: Kaiyang Zhou(Nanyang Technological University, Singapore)
 
 ### NLP data augmentation
 <https://zhuanlan.zhihu.com/p/150600950?from_voters_page=true>  
+
+
+### CV data augmentation
+CVPR2020 Randaugment: Practical automated data augmentationwith a reduced search space  
+paper link:<https://openaccess.thecvf.com/content_CVPRW_2020/papers\/w40/Cubuk_Randaugment_Practical_Automated_Data_Augmentation_With_a_Reduced_Search_Space_CVPRW_2020_paper.pdf>  
+code link:  
+author:  Ekin D. Cubuk, Barret Zoph(google search)  
+
+CVPR2019 AutoAugment:Learning Augmentation Strategies from Data  
+paper link:<https://openaccess.thecvf.com/content_CVPR_2019/papers/Cubuk_AutoAugment_Learning_Augmentation_Strategies_From_Data_CVPR_2019_paper.pdf>  
+code link:  
+author: Ekin D. Cubuk , Barret Zoph(google search)  
