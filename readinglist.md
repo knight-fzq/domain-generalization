@@ -17,7 +17,7 @@ author: Kihyuk Sohn(google cloud AI)
 ### semi-supervised domain generalization
 arXiv Semi-Supervised Domain Generalization with Stochastic StyleMatch  
 paper link:<https://arxiv.org/pdf/2106.00592.pdf>  
-code link:<https://arxiv.org/abs/2106.00592https://github.com/KaiyangZhou/ssdg-benchmark>  
+code link:<https://github.com/KaiyangZhou/ssdg-benchmark>  
 author: Kaiyang Zhou(Nanyang Technological University, Singapore)  
 
 ### NLP data augmentation
