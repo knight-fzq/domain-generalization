@@ -35,6 +35,14 @@ paper link:<https://openaccess.thecvf.com/content_CVPR_2019/papers/Cubuk_AutoAug
 code link:  
 author: Ekin D. Cubuk , Barret Zoph(google search)  
 
+### COVID-19
+2021 Federated deep learning for detecting COVID-19 lun  
+paper link:  
+author:  
+
+2021 contrastive cross site learning with redesighed net for COVID-19 CT Classification  
+paper link:  
+author:  
 ### other paper
 arXiv Proximal_prolicy_optimization_algorithms  
 paper link:<https://arxiv.org/pdf/1707.06347.pdf>  
