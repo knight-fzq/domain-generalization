@@ -7,19 +7,22 @@
 5. propose to use a contrastive training objective to enhance the domain invariance of semantic embeddings for boosting the classification performance on each dataset  
 
 ## method
+1. contribution  
+Add BN layer  
+Add lr decay method(cos)  
+Transform from BN to DSBN;Employ domain-specific batch normalization method:assigning an individual BN layer for each site independently  
+
+2. model structure  
+![image](picture/contrastive_covid19_structure.png)  
 ## background
 1. dataset 
 
 2. method  
-Add BN layer  
-Add lr decay method(cos)  
 
-3. model structure  
-![image](picture/contrastive_covid19_structure.png)  
 ## dataset
 1. COVID-CT  
-![image](2%0.jpg)  
+![image](picture/2%0.jpg)  
 2. SARS-Cov-2  
-![image](Covid(1).png)  
+![image](picture/Covid(1).png)  
 ## experiment
 1. two public large-scale COVID-19 diagnosis datasets made up of CT images
