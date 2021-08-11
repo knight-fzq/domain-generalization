@@ -11,5 +11,9 @@
 1. dataset 
 
 2. method  
+Add BN layer  
+Add lr decay method(cos)  
+3. model structure  
+![image](picture/contrastive_covid19_structure.png)
 ## experiment
 1. two public large-scale COVID-19 diagnosis datasets made up of CT images
