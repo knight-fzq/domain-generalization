@@ -9,6 +9,24 @@
 $ER(f(\theta,x),T_{x})$  
 4. These method vary in how they generate the target  
 
+### Ladder Network
+1. The first successful attempt inspired by a deep denoising AutoEncoder  
+2. Noisy encoder:  
+$x+e-f->z'_{1}->z'_{2}'$  
+3. Decoder:  
+$z'_{2}-d->z'_{1}->x$  
+4. Clean encoder:  
+$x-f->z_{1}->z_{2}->y'$  
+5. Loss  
+$R(z'_{1},z_{1})+R(z'_{2},z_{2})+R(y,y_true)$  
+![image](picture/ladder.png)  
+
+### <font color=red>$\pi$ Model</font>  
+1. idea from: some data augmentation methods leading to different predictions  
+2. So create two random augmentations of a sample for both labeled and unlabeled data and provide an unsupervised consistency loss function  
+
+### 
+
 ## Pseudo-labeling method
 ### Disagreement-based models
 1. Tri-Net:
