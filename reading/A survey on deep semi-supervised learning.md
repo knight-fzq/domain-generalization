@@ -24,8 +24,11 @@ $R(z'_{1},z_{1})+R(z'_{2},z_{2})+R(y,y_true)$
 ### $\color{red}{\pi Model}$  
 1. idea from: some data augmentation methods leading to different predictions  
 2. So create two random augmentations of a sample for both labeled and unlabeled data and provide an unsupervised consistency loss function  
-
-### 
+![image](picture/pi.png)  
+### Temporal Ensembling
+### Mean teacher
+### VAT
+### ...
 
 ## Pseudo-labeling method
 ### Disagreement-based models
@@ -72,8 +75,39 @@ $argmax_{K}{p(M_{1}(M_{S}(X)))+p(M_{2}(M_{S}(X)))+p(M_{3}(M_{S}(X)))}$
 ![image](picture/meta_pseudo_label.png)  
 
 
+## HYBRID METHODS
+1. Hybrid methods combine ideas from the above-mentioned methods such as pseudo-label, consistency regularization and entropy minimization  
 
+### Mixup
+1. linear interpolations of samples should lead to the linear interpolations of the corresponding labels  
+2. so define $X$ and $Y$  
+$X'=\lambda X_{i}+(1-\lambda)X_{j}$  
+$Y'=\lambda y_{i}+(1-\lambda)y_{j}$  
+$Loss=E(X',Y')$  
 
+### ICT
+1. Encouraging the prediction at an interpolation of two unlabeled examples to be consistent with the interpolation of the predictions at those points  
+
+### MixMatch
+1. combines consistency regularization and entropy minimization in a unified loss function  
+2. Using Mixup  
+### $\color{red}{ReMixMatch}
+1. ReMixMatch extends MixMatch by introducing distribution alignment and augmentation anchoring  
+2. distribution alignment encourages the marginal distribution of aggregated class predictions on unlabeled data close to the marginal distribution of ground truth labels  
+3. Augmentation anchoring replaces the consistency regularization by generating multiple strongly augmented versions of input and encourages each output to be close to predicting a weekly augmented variant of the same input.  
+4. Using AutoAugment, CTAugment  
+
+### $\color{red}{DivideMix}
+1. present a new SSL framework to handle the problem of learning with noisy labels  
+2. Propose co-drive, a process that trains two networks simultaneouly.  
+3. For each network, a dynamic Gauss Mixed Model is fitted on the loss distribution of each sample to divide the training set into labeled data and unlabeled data. The seperated data sets are then used to train the next epoch's networks    
+
+### $\color{red}{FixMatch}
+See from other file  
+### $\color{red}{StyleMatch}
+See from other file  
+## data augmentation method
+See from other file  
 
 
 
