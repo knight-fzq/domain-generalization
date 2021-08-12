@@ -21,10 +21,11 @@ $x-f->z_{1}->z_{2}->y'$
 $R(z'_{1},z_{1})+R(z'_{2},z_{2})+R(y,y_true)$  
 ![image](picture/ladder.png)  
 
-### $\color{red}{\pi Model}$  
+### $\color{red}{\pi Model}$
 1. idea from: some data augmentation methods leading to different predictions  
 2. So create two random augmentations of a sample for both labeled and unlabeled data and provide an unsupervised consistency loss function  
 ![image](picture/pi.png)  
+
 ### Temporal Ensembling
 ### Mean teacher
 ### VAT
@@ -38,6 +39,7 @@ $R(z'_{1},z_{1})+R(z'_{2},z_{2})+R(y,y_true)$
 $argmax_{K}{p(M_{1}(M_{S}(X)))+p(M_{2}(M_{S}(X)))+p(M_{3}(M_{S}(X)))}$  
 (3)generating different training set to insure the diversity: bootstrap sampling  
 ![image](picture/tri-net.png)  
+
 2. Deep Co-training  
 (1)disagreement among these learners is crucial, Deep Co-training improves the disagreement by designing a view difference constraint  
 
