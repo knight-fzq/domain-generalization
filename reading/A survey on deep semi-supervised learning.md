@@ -91,20 +91,20 @@ $Loss=E(X',Y')$
 ### MixMatch
 1. combines consistency regularization and entropy minimization in a unified loss function  
 2. Using Mixup  
-### $\color{red}{ReMixMatch}
+### $\color{red}{ReMixMatch}$
 1. ReMixMatch extends MixMatch by introducing distribution alignment and augmentation anchoring  
 2. distribution alignment encourages the marginal distribution of aggregated class predictions on unlabeled data close to the marginal distribution of ground truth labels  
 3. Augmentation anchoring replaces the consistency regularization by generating multiple strongly augmented versions of input and encourages each output to be close to predicting a weekly augmented variant of the same input.  
 4. Using AutoAugment, CTAugment  
 
-### $\color{red}{DivideMix}
+### $\color{red}{DivideMix}$
 1. present a new SSL framework to handle the problem of learning with noisy labels  
 2. Propose co-drive, a process that trains two networks simultaneouly.  
 3. For each network, a dynamic Gauss Mixed Model is fitted on the loss distribution of each sample to divide the training set into labeled data and unlabeled data. The seperated data sets are then used to train the next epoch's networks    
 
-### $\color{red}{FixMatch}
+### $\color{red}{FixMatch}$
 See from other file  
-### $\color{red}{StyleMatch}
+### $\color{red}{StyleMatch}$
 See from other file  
 ## data augmentation method
 See from other file  
